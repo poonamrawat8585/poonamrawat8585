@@ -1,0 +1,613 @@
+inndex.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoonamRawat's portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            margin-bottom: 9px;
+            color: rgb(243, 243, 245);
+        }
+
+        body {
+            background-color: rgb(31, 31, 53);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 63);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: lavender;
+            font-size: 1.2rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 80px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .leftsection .buttons {
+            padding: 30px 0;
+        }
+
+        .leftsection .btn {
+            padding: 11px;
+            background-color: #1e2167;
+            color: white;
+            border: 3px solid white;
+            border-radius: 5 px;
+            font-size: 12px;
+            cursor: pointer;
+
+        }
+
+        .rightsection img {
+            width: 400px;
+        }
+
+        .aqua {
+            color: aqua;
+        }
+
+        .grey {
+            color: gray;
+        }
+
+        #element {
+            color: aqua;
+            text-align: center;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 77ww;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        about-section {
+            max-width: 700px;
+            margin: 60px auto 40px auto;
+            padding: 32px 28px;
+            background: rgba(44, 62, 80, 0.25);
+            border-radius: 14px;
+            box-shadow: 0 2px 18px rgba(0, 0, 0, 0.10);
+            text-align: left;
+        }
+
+        about-section:hover {
+            box-shadow: 0 6px 32px rgba(44, 62, 80, 0.18);
+        }
+
+        .about-section h1 {
+            color: #eae9f0;
+            font-size: 2.2rem;
+            margin-bottom: 18px;
+            letter-spacing: 1px;
+            text-align: left;
+            font-weight: 700;
+        }
+
+        .about-section p {
+            color: #e8eced;
+            font-size: 1.15rem;
+            line-height: 1.7;
+            letter-spacing: 0.2px;
+            margin-bottom: 0;
+            text-align: left;
+            font-weight: 400;
+            text-shadow: 0 1px 2px #23235a;
+            word-spacing: 1.4px;
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            height: max-content;
+        }
+
+
+        .vertical- desc {
+            position: relative;
+            top: 86px;
+            color: rgb(224, 218, 218);
+            width: 150px;
+            font-size: 9px;
+
+
+        }
+
+        footer {
+            background-color: rgb(28, 23, 44);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            font-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        .footer-second {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+
+        .footer-second h1 {
+            color: #e8eced;
+            font-size: 1.4rem;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        footer.footer-rights {
+            text-align: center;
+            color: rgb(184, 165, 165);
+            padding: 12px 0;
+
+        }
+
+        .skills-section {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 30px 0;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+
+        }
+
+        .skills-section h1 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #e8eced;
+            letter-spacing: 1px;
+        }
+
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(30, 33, 103, 0.7);
+            padding: 18px 24px;
+            border-radius: 10px;
+            box-shadow: 0 1px 8px rgba(0, 0, 0, 0.10);
+            transition: transform 0.2s;
+        }
+
+        .skill-item:hover {
+            transform: translateY(-6px) scale(1.05);
+            background: #23235a;
+        }
+
+        .skill-item img {
+            margin-bottom: 10px;
+            border-radius: 6px;
+            background: #fff;
+            padding: 6px;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.07);
+        }
+
+        .skill-item div {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-top: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        .skills-frameworks-container {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .skills-frameworks-container .skills-section {
+            flex: 1 1 350px;
+            min-width: 320px;
+        }
+
+        .made-with-love {
+            text-align: right;
+            color: #f4f1f1;
+            font-size: 0.9rem;
+            margin: 30px 0 10px 0;
+            letter-spacing: 1px;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            opacity: 0.85;
+            list-style-image: love;
+
+        }
+
+        .footer a {
+            color: #e8eced;
+            text-decoration: none;
+            transition: color 0.2s;
+            font-weight: 500;
+        }
+
+        .footer a:hover {
+            color: #9c97f1;
+            text-decoration: underline;
+        }
+
+        input,
+        textarea {
+            color: #030303;
+            background: #fff;
+            border: 1px solid #484852;
+            padding: 10px;
+            border-radius: 6px;
+        }
+    </style>
+    <style>
+        html {
+            scroll-behaviour: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+
+
+    <main>
+        <nav>
+            <div class="left">Poonam's Portfolio</div>
+            <div class="right"></div>
+
+            <ul>
+                <li><a href="#" id="home-link">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#" id="contact-link">Contact Me</a></li>
+            </ul>
+        </nav>
+
+    </main>
+    <section class="firstsection">
+        <div class="leftsection">
+            Hi,My name is<span class="aqua"> Poonam</span>
+            <div>and I am a </div>
+            <span id="element"></span>
+            <div class="buttons">
+                <a href="POONAM RAWAT 85.pdf" download class="btn" style="text-decoration:none;">
+                    Download Resume
+                </a>
+                <a href="https://github.com/poonamrawat8585" target="_blank" class="btn" style="text-decoration:none;">
+                    Visit Github
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="rightsection">
+            <img src="girl png.jpeg" alt="">
+        </div>
+    </section>
+    <section class="about-section" id="about">
+        <h1>About Me</h1>
+        <p>
+            I'm Poonam Rawat, a passionate Front-End Developer and UI/UX Designer. I love building intuitive and
+            beautiful
+            digital experiences. My goal is to create impactful solutions through design and code.
+        </p>
+    </section>
+    <hr>
+    <section class="skills-section">
+        <h1>Projects</h1>
+        <div class="skills-list">
+            <div class="skill-item">
+
+                <div class="title">
+                    1.FUEL FUSION
+                </div>
+                <div class="vertical-desc">
+                    MY contribution in this project is Designed UI intuitive wireframes and interactive prototypes
+                    using Figma, focusing on accessibility and seamless navigation.Created a clean, responsive UI that
+                    reflected the energy and innovation of the petroleum .Collaborated closely with developers to hand
+                    off assets and ensure pixel-perfect implementation.
+
+
+                </div>
+            </div>
+            <section class="skills-section">
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="title">
+                            2. Paw Alert
+                        </div>
+                        <div class="vertical-desc">
+                            Basically it is a group project where we have created a website for animals who are lost or
+                            injured and need help. My contribution in this project is designing a responsive UI design.
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills-section">
+                <h1>My Skills</h1>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <img src="HTML5 logo PNG.jpeg" alt="HTML" width="50" height="50">
+                        <div>HTML</div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="css.png.jpeg" alt="CSS" width="50" height="50">
+                        <div>CSS</div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="uiux.png.jpeg" alt="CSS" width="50" height="50">
+                        <div>UIUX</div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="js.png.jpeg" alt="JavaScript" width="50" height="50">
+                        <div>JavaScript</div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills-section">
+                <h1>Frameworks</h1>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <img src="Tailwind CSS png_.jpeg" alt="React" width="40" height="40">
+                        <div>Tailwind CSS</div>
+
+                    </div>
+
+
+                </div>
+            </section>
+            <section class="skills-section">
+                <h1>Tools</h1>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <img src="Vscode png.jpeg" alt="Design" width="50" height="50">
+                        <div>VsCode</div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Figma png.jpeg" alt="Coding" width="50" height="50">
+                        <div>Figma</div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="replit png.jpeg" alt="Coding" width="50" height="50">
+                        <div>Replit</div>
+                    </div>
+                    <section class="skills-section">
+                        <h1>Interests</h1>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <img src="sketching.png.jpeg" alt="Design" width="40" height="50">
+                                <div>Sketching</div>
+                            </div>
+                            <div class="skill-item">
+                                <img src="codepng.jpeg" alt="Coding" width="40" height="50">
+                                <div>Coding</div>
+                            </div>
+                            <div class="skill-item">
+                                <img src="study.png.jpeg" alt="Reading" width="40" height="50">
+                                <div>Reading Books</div>
+                            </div>
+                            <div class="skill-item">
+                                <img src="music.png.jpeg" alt="Music" width="40" height="50">
+                                <div>Listening Music</div>
+                            </div>
+                        </div>
+                    </section>
+                    <div>
+            </section>
+            <section id="contact-section"
+                style="display:none; margin: 40px auto; max-width: 500px; background: rgba(44,62,80,0.25); border-radius: 14px; box-shadow: 0 2px 18px rgba(0,0,0,0.10); padding: 32px 28px;">
+
+                <h1 style="color:#eae9f0; font-size:2rem; margin-bottom:18px;">Contact Me</h1>
+
+                <form>
+                    <div style="margin-bottom:16px;">
+                        <input type="text" placeholder="Your Name"
+                            style="width:100%;padding:10px;border-radius:6px;border:none;">
+                    </div>
+                    <div style="margin-bottom:16px;">
+                        <input type="email" placeholder="Your Email"
+                            style="width:100%;padding:10px;border-radius:6px;border:none;">
+                    </div>
+                    <div style="margin-bottom:16px;">
+                        <textarea placeholder="Your Message" rows="4"
+                            style="width:100%;padding:10px;border-radius:6px;border:none;"></textarea>
+                    </div>
+                    <button type="submit"
+                        style="padding:10px 24px;background:#1e2167;color:white;border:none;border-radius:6px;cursor:pointer;">Send</button>
+                </form>
+            </section>
+
+
+    </section>
+    <main>
+        <footer>
+            <div class="footer">
+                <!--<div class="footer-first">
+                    <h3>Poonam's Developer Portfolio</h3>-->
+            </div>
+            <div class="footer-second">
+                <h1>Let's connect</h1>
+
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/poonam-rawat-0b1a4b1b2/" target="-blank">linkedin
+                            </linkedin>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>
+                        <a href="mailto:poonamr.8585@email.com">Email
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-rights">
+                www.poonam'sportfolio.com | All reserved
+
+            </div>
+            <div class="made-with-love">
+                Made with <span style="color:red;">&#10084;</span> by Poonam Rawat
+            </div>
+
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Front-End Developer', 'UIUX Designer'],
+                typeSpeed: 40,
+            });
+        </script>
+        <script>
+            document.getElementById('contact-link').addEventListener('click', function (e) {
+                e.preventDefault();
+                document.getElementById('contact-section').style.display = 'block';
+                document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });
+            });
+        </script>
+        <script>
+            document.getElementById('contact-link').addEventListener('click', function (e) {
+                e.preventDefault();
+                document.getElementById('contact-section').style.display = 'block';
+                document.getElementById('contact-section').scrollIntoView({ behavior: 'smooth' });
+            });
+
+            document.getElementById('home-link').addEventListener('click', function (e) {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+            // Enable send button if name or email is filled
+            const nameInput = document.getElementById('contact-name');
+            const emailInput = document.getElementById('contact-email');
+            const sendBtn = document.getElementById('send-btn');
+
+            function checkInputs() {
+                if (nameInput.value.trim() !== '' || emailInput.value.trim() !== '') {
+                    sendBtn.disabled = false;
+                } else {
+                    sendBtn.disabled = true;
+                }
+            }
+
+            nameInput.addEventListener('input', checkInputs);
+            emailInput.addEventListener('input', checkInputs);
+
+            // Optional: Prevent form submission for demo
+            document.getElementById('contact-form').addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert('Message sent!');
+            });
+        </script>
+        </script>
+</body>
+
+</html>
