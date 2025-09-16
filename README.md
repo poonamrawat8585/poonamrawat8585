@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<!--# 👋 Hi, I'm [POONAM RAWAT]  
+ 👋 Hi, I'm [POONAM RAWAT]  
 
 ### 💻 About Me  
 - 🌱 I’m currently working on **Web Development (HTML, CSS, Bootstrap, JavaScript) and ui ux design**  
@@ -26,5 +26,5 @@
 
 ✨ *“Code is like humor. When you have to explain it, it’s bad.”*  
 
-**poonamrawat8585/poonamrawat8585** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
 
