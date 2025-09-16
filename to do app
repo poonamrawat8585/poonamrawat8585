@@ -1,0 +1,18 @@
+# 📝 To-Do App
+
+A simple and responsive **To-Do List Application** built with **HTML, CSS, Bootstrap, and JavaScript**.  
+This app helps you stay organized by allowing you to add, complete, delete, and save tasks in your browser.  
+
+---
+
+## 🚀 Features
+- ➕ **Add Task** – Add a task with the input field & "Add" button (or press **Enter**)  
+- ✅ **Mark Complete** – Click a task to toggle complete/incomplete (strikethrough for completed tasks)  
+- ❌ **Delete Task** – Remove tasks easily with a delete button  
+- 💾 **Persistent Storage** – Tasks are saved in **localStorage** and remain after refreshing  
+- 📋 **Empty State Message** – Friendly message when the task list is empty  
+- 🎨 **Responsive Design** – Styled with **Bootstrap** for all screen sizes  
+
+---
+
+## 📂 Project Structure
