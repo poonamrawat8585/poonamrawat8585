@@ -1,0 +1,41 @@
+# Multiple-Choice Quiz App
+
+## Overview
+This project is a Multiple-Choice Quiz App built using HTML, CSS, Bootstrap, and JavaScript. It allows users to answer a series of multiple-choice questions, calculates their score, and provides feedback on their performance.
+
+## Features
+- A set of 5-10 multiple-choice questions.
+- Users can select one answer per question.
+- Final score is displayed after the last question.
+- Optionally shows correct answers after submitting.
+- Scores are stored in localStorage for future reference.
+- Includes a "Try Again" button to retake the quiz.
+
+## Project Structure
+```
+quiz-app
+├── src
+│   ├── index.html        # Main HTML document for the quiz app
+│   ├── css
+│   │   └── styles.css    # Custom styles for the quiz app
+│   ├── js
+│   │   └── script.js      # JavaScript logic for the quiz app
+│   └── data
+│       └── questions.js   # Array of question objects
+└── README.md             # Documentation for the project
+```
+
+## Getting Started
+1. Clone the repository to your local machine.
+2. Open the `src/index.html` file in your web browser to run the quiz app.
+3. Follow the on-screen instructions to complete the quiz.
+
+## Technologies Used
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+
+## Notes
+- Ensure you have a modern web browser for the best experience.
+- Feel free to modify the questions in `src/data/questions.js` to customize the quiz.

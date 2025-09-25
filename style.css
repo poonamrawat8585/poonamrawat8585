@@ -1,0 +1,18 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  border-radius: 11px;
+}
+
+.option {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #bcd2e9;
+  border-radius: 7px;
+  padding-left: 7px;
+}
