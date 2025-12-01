@@ -11,10 +11,10 @@
 ---
 
 ### 🛠️ Tech Stack
-- **Frontend:** HTML, CSS, Bootstrap, JavaScript, tailwind, nodejs 
+- **Frontend:** HTML, CSS, Bootstrap, JavaScript, tailwind, nodejs , React.js
 - **Tools:** Git, GitHub, VS Code, replit, figma. 
-- **Currently Exploring:** React.js  
-
+- **Currently Exploring:** MERN Stack 
+-**
 ---
 
 ### 📫 Connect with Me
