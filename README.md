@@ -3,7 +3,7 @@
  👋 Hi, I'm [POONAM RAWAT]  
 
 ### 💻 About Me  
-- 🌱 I’m currently working on **Web Development (HTML, CSS, Bootstrap, JavaScript)**  
+- 🌱 I’m currently working on **Web Development (HTML, CSS, Bootstrap, JavaScript , Reactjs ,TailwindCSS)**  
 - 🚀 Interested in building **frontend projects** and improving my coding skills   
 - 🎯 Goal: To become a **Full Stack Developer** and contribute to open-source  
 - 📚 I enjoy learning new technologies and solving real-world problems with code  
