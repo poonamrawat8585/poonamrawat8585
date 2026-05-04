@@ -14,7 +14,7 @@
 - **Frontend:** HTML, CSS, Bootstrap, JavaScript, tailwind, React.js
   -**Backend:** c#, node.js, .net core api's
 - **Tools:** Git, GitHub, VS Code, replit, figma. 
-- **Currently Exploring:** MERN Stack 
+- **Currently exploring : MERN 
 -**
 ---
 
